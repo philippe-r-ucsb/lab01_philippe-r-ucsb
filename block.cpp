@@ -25,6 +25,7 @@ string make_block(int rows, int columns) {
     }
     s.append("\n");
   }
+  s.pop_back();
   return s;
 }
 
