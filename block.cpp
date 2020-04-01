@@ -6,13 +6,18 @@ using namespace std;
 string make_block(int x, int y);
 
 int main() {
-  cout << "Enter number of rows and columns:" << endl;
-  int rows;
-  int columns;
-  cin >> rows;
-  cin >> columns;
+  for (;;) {
+    cout << "Enter number of rows and columns:" << endl;
+    int rows;
+    int columns;
+    cin >> rows;
+    cin >> columns;
 
-  cout << make_block(rows, columns) << endl;
+    if (rows == 0 || columns == 0) {
+      break;
+    }
+    cout << make_block(rows, columns) << endl;
+  }
 
   return 0;
 }
