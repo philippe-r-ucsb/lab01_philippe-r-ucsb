@@ -17,7 +17,7 @@ int main() {
     double pi = leibniz_pi_approx(n);
     cout << "The approximate value of pi using " << n+1 << " term" << ((n > 0) ? "s " : " ") <<"is: " << pi << endl;
     cin >> n;
-    cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1) to quit:" << endl;
+    cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
   }
   return 0;
 
