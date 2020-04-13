@@ -21,7 +21,6 @@ int main(int argc, char *argv[])  {
   int c = atoi(argv[3]);
 
   cout << smallest_of_three(a,b,c) << endl;
-  
   return 0;
 }
 

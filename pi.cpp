@@ -11,7 +11,7 @@ int main() {
   cout.precision(3);
 
   int n = 0;
-  cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1) to quit:" << endl;
+  cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
   cin >> n;
   while (n >= 0) {
     double pi = leibniz_pi_approx(n);
